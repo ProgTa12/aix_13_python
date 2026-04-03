@@ -1,0 +1,8 @@
+print("안녕하세요"[1:4]) #녕하세
+print("안녕하세요"[0:2]) #안녕
+a = "안녕하세요"
+print(a[1:]) #녕하세요
+print(a[:3]) #안녕하
+# print(a[5]) #IndexError
+print(100)
+print(len(a))

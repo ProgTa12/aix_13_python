@@ -1,0 +1,11 @@
+# file = open("basic.txt", "w")
+# file.write("\n")
+# file.write("헬로 파이썬 프로그래밍4")
+# input("엔터키 누르세요")
+# file.close()
+# print('end')
+with open("info.txt", 'r') as file:
+    file.write("\n")
+    file.write("헬로 프로그래밍")
+    file.writeline()
+    print("end")
