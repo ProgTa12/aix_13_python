@@ -17,3 +17,4 @@ def get_stock():
 
 company, stock = get_stock()
 print(f"현재 {company}의 주가는: {stock}")
+print("end")
